@@ -1,0 +1,111 @@
+// resets
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html, body {
+    width: 100vw;
+    max-width: 100%!important;
+    height: auto;
+    overflow-x: hidden;
+}
+
+html,
+body,
+div,
+nav,
+section,
+main,
+header,
+h1,
+h2,
+h3,
+h4,
+ul,
+ol,
+li,
+a,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul, 
+ol { list-style: none; }
+
+li { display: block; }
+
+a { text-decoration: none;}
+
+[hidden] {
+    display: none!important;
+}
+
+
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+$primary-font: 'Open Sans', sans-serif;
+
+// colour pallette
+$Steel-Grey: #1D1E2C;
+$Black-Smoke: #43434d;
+$Shuttle-Grey: #59656F;
+$Pale-Sky: #6C7780;
+$Amethyst-Smoke: #AC9FBB;
+$Thistle: #DDBDD5;
+$Vista-White: #F7EBEC;
+
+$Inchworm: #ABE85C;
+$Gun-Metal: #292F36;
+$Smokey-Black: #0A0F0D;
+$Davys-Grey: #595959;
+$Illuminated-Emerald: #419D78;
+$Cornflower-Blue: #92D4E8;
+$Pistachio: #83CC80;
+
+// utility classes
+.w-100 {
+    width: 100%;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+    display: grid;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-20 {
+    padding: 20px;
+}
+.m-auto {
+    margin: auto;
+}
+.m-10 {
+    margin: 10px;
+}
+.m-20 {
+    margin: 20px;
+}
+.b-1 {
+    border: solid 1px;
+}
+.semi-bold {
+    font-weight: 600;
+}
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+.hidden {
+    display: none;
+}
